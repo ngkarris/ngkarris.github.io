@@ -1,17 +1,18 @@
 body{
-    margin:32px auto;
+    margin:8px auto;
     max-width:1024px;
     line-height:1.2;
     font-size:20px;
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     color:#000000;
-    padding:0
+    padding:8px;
+    text-align: justify
 }
 
 
-p{
+/* p{
     text-align: justify;
-    font-size: 20px
+    font-size: 20px;
 }
 
 ol{
@@ -22,27 +23,16 @@ ol{
 ul{
     text-align: justify;
     font-size: 20px
-}
+} */
 
 
 
 .container{
     position: relative;
-    width: 1008px;
-    left: 8px;
+    max-width: 1024px;
     font-size: 20px;
-    /* background-color:lightgrey; */
-}
-
-.container-article{
-    position: relative;
-    height: 125px;
-}
-
-a.top-home-link {
-    position: absolute; 
-    right:0; 
-    top: 0;
+    background-color:lightgrey;
+    margin: 8px
 }
 
 h1,h2,h3{
@@ -54,70 +44,4 @@ h1,h2,h3{
 a{
     color: #808080
     /* color: #4793ff;  */
-}
-
-a.todo {
-    color: #ff4747;
-}
-
-body {
-    
-}
-
-.lead {
-    font-size:1.5em; 
-    /* color:#888; */
-    text-align: center;
-}
-
-.sign-up-button {
-    display: inline-block;
-    padding: 20px;
-    font-size: 1.5em;
-    background-color: cornflowerblue;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.sign-up-button:hover {
-    background-color: #7ba5f0;
-}
-
-.container-article h1{
-    position: relative;
-    top: 50px;
-    height: 75px;
-}
-
-.subtitle {
-    position:relative;
-    /* bottom: 0; */
-    color:#888;
-}
-
-.date {
-    color:#888;
-}
-
-.footer {
-    padding: 100px 0 50px 0;
-}
-
-img.block-image {
-    display: block;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table.table {
-    border-collapse: collapse;
-    width: 100%;
-}
-table.table td,th {
-    border: 1px solid black;
-    padding: 5px;
 }
