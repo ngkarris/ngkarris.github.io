@@ -8,7 +8,8 @@ body{margin:32px
 .container{
     position: relative;
     width: 1008px;
-    left: 8px
+    left: 8px;
+    font-size: 20px
 }
 
 .container-article{
