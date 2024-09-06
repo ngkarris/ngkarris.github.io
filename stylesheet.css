@@ -35,9 +35,33 @@ ul{
     margin: 8px
 }
 
+.splitcont{
+    position: relative;
+    max-width: 1024px;
+    font-size: 20px;
+    /* background-color:lightgrey; */
+}
+
+.splitimg{
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    text-align:center
+}
+
+@media only screen and (min-width:1016px) {
+    /* .splitcont{
+        background-color:grey
+    } */
+    .splitimg{
+        float:left;
+    }
+}
+
 h1,h2,h3{
     line-height:1.2;
     margin-top: 2em;
+    font-size: 40px;
     color: #602080
 }
 
