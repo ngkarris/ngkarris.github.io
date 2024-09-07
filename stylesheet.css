@@ -49,10 +49,7 @@ ul{
     text-align:center
 }
 
-@media screen and (min-width:1016px) {
-    .splitcont{
-        background-color:grey
-    }
+@media screen and (min-width:1024px) {
     .splitimg{
         float:left;
     }
