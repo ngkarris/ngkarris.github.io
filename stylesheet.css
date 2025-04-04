@@ -30,10 +30,17 @@ body{
     }
 }
 
-h1,h2,h3{
+h1{
     line-height:1.2;
     margin-top: 2em;
     font-size: 40px;
+    color: #602080
+}
+
+h2,h3{
+    line-height:1;
+    margin-top: 0em;
+    font-size: 28px;
     color: #602080
 }
 
